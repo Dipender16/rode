@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+
+            fontFamily: {
+                'poppins': ["'Poppins', sans-serif"]
+                
+    },
+          screens: {
+            xm: "400px",
+            sm: "550px",
+            md: "800px",
+            normal: "1100px",
+            l: "1300px",
+            xl: "1600px",
+            xxl: "1880px",
+          },
+          extend: {
+            backgroundImage: {
+              'sectionBg1': "url(img/bg1.jpg)",
+              'sectionBg2': "url(img/bg2.jpg)",
+              'sectionBg3': "url(img/bg3.jpg)",
+              'sectionBg4': "url(img/bg4.jpg)",
+              'sectionBg5': "url(img/bg5.jpg)",
+              'sectionBg6': "url(img/bg6.jpg)",
+              'sectionBg7': "url(img/bg7.png)",
+              'sectionBg8': "url(img/bg8.jpg)",
+              'sectionBg9': "url(img/bg9.png)",
+              'sectionBg10': "url(img/bg10.png)",
+
+            },
+            colors: {
+                'brown': '#484848',
+                'lightBrown': '#788078',
+                'brownish': '#ad9970'
+                
+            },
+            spacing: {
+                '350': '350px',
+                '400': '400px',
+                '500': '500px',
+                '550': '550px',
+                '600': '600px',
+                '650': '650px',
+                '700': '700px',
+                '800': '800px',
+                '1000': '1000px',
+                '1300': '1300px'
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="font-poppins">
+    <div class="fixed w-full">
+    <div class="flex bg-white justify-between items-center px-10 l:px-24 xl:px-80 py-1">
+        <div class="flex items-center">
+            <span class="material-symbols-outlined font-thin">
+            location_on
+            </span>
+            <p class="text-sm">EN</p>
+            <span class="material-symbols-outlined">
+                arrow_drop_down
+            </span>
+        </div>
+        <span class="material-symbols-outlined font-thin">
+            person_filled
+            </span>
+    </div>
+    <hr class="w-full">
+    <header class="flex w-full bg-white justify-between normal:px-10 l:px-24 xl:px-80 p-5">
+        <span class="material-symbols-outlined text-brown normal:hidden">menu</span>
+        <img class="w-24" src="img/logo.svg" alt="">
+        <ul class="flex gap-8 hidden normal:flex">
+            <li>PRODUCTS</li>
+            <li>USER GUIDES</li>
+            <li>SOLUTIONS</li>
+            <li>APPAREL</li>
+            <li>SUPPORT</li>
+        </ul>
+        <img src="img/search.svg" alt="">    
+    </header>
+    </div>
+
+    <!-- section1 -->
+    <div class="pt-24">
+    <section class="bg-black md:bg-sectionBg1 bg-cover flex flex-col normal:py-20 l:py-40 justify-center items-end">
+        <div class="w-full h-64 bg-cover md:hidden bg-sectionBg1">
+        </div>
+        <div class="flex flex-col items-center justify-center l:pl-12 xl:pl-0 l:w-3/6 xl:w-2/6 md:pl-10 h-96 normal:pl-60 md:ml-96 xl:ml-0 xl:mr-60">
+        <img class="w-6/6 sm:w-96 md:w-60 l:w-4/6" src="img/pro.svg" alt="">
+        <p class="text-white my-6 md:my-5  text-lg l:text-xl xl:text-2xl text-center font-semibold">The Revolution Is Here</p>
+        <p class="text-lightBrown sm:text-center text-lg px-2 l:text-lg xl:text-xl sm:px-10 l:px-32 xl:px-0 my-2 md:my-0 md:text-sm">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.</p>
+        <div class="flex justify-center gap-5 items-center">
+        <p class="text-brownish font-bold">LEARN MORE ></p>
+        <button class="py-2 px-8 rounded-full text-white bg-brownish font-semibold my-5">BUY NOW</button>
+        </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- section2 -->
+    <section class="bg-white md:bg-sectionBg2 bg-cover  flex flex-col normal:py-20 l:py-40 justify-center items-start">
+        <div class="w-full h-64 bg-cover hidden sm:block md:hidden bg-sectionBg2">
+        </div>
+        <div class="flex flex-col items-center justify-center l:pl-12 xl:pl-0 md:w-3/6 xl:w-2/6 md:pl-10 h-96  md:mr-96 xl:ml-72 ">
+        <img class="w-6/6 sm:w-96 md:w-60 l:w-4/6" src="img/nth.svg" alt="">
+        <p class="text-black my-6 md:my-5  text-lg l:text-xl xl:text-2xl text-center font-semibold">Your Search For The Perfect Headphones Is Over</p>
+        <p class="text-lightBrown sm:text-center text-lg px-2 l:text-lg xl:text-xl sm:px-10 l:px-32 xl:px-0 my-2 md:my-0 md:text-sm">Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.</p>
+        <div class="flex justify-center gap-5 items-center">
+        <p class="text-brownish font-bold">LEARN MORE ></p>
+        <button class="py-2 px-8 rounded-full text-white bg-brownish font-semibold my-5">BUY NOW</button>
+        </div>
+        </div>
+    </section>
+
+    
+    <!-- section3 -->
+    <section class="bg-white l:bg-sectionBg3 bg-cover  flex flex-col normal:pt-20 l:py-40 justify-center items-end md:items-center l:items-end">
+        <div class="w-full md:w-800 normal:w-1000 md:mt-20 normal:mt-0 h-96 md:h-550 normal-800 bg-cover l:hidden bg-sectionBg3">
+        </div>
+        <div class="flex flex-col items-center justify-center l:pl-12 xl:pl-0 l:w-3/6 xl:w-2/6 l:pl-10 h-96 md:mx-20  xl:ml-0 xl:mr-60">
+        <img class="w-6/6 sm:w-96 md:w-5/6 mt-5 l:w-6/6" src="img/usb.svg" alt="">
+        <p class=" my-6 md:my-5  text-lg l:text-xl xl:text-2xl text-center font-semibold">Studio-Quality Recording, Made Simple</p>
+        <p class="text-lightBrown sm:text-center text-lg px-2 l:text-lg xl:text-xl sm:px-10 l:px-0 xl:px-0 my-2 md:my-0 md:text-sm">The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.</p>
+        <div class="flex justify-center gap-5 items-center">
+        <p class="text-brownish font-bold">LEARN MORE ></p>
+        <button class="py-2 px-8 rounded-full text-white bg-brownish font-semibold my-5">BUY NOW</button>
+        </div>
+        </div>
+    </section>
+    
+    <!-- section4 -->
+    <section class="bg-white l:bg-sectionBg4 bg-cover  flex flex-col normal:py-0 l:py-40  justify-center items-start md:items-center l:items-start">
+        <div class="w-full md:w-800 normal:w-1000 md:mt-0  h-96 md:h-550 normal-800 bg-cover l:hidden bg-sectionBg4 bg-top md:bg-right">
+        </div>
+        <div class="flex flex-col items-center justify-center l:pl-12 xl:pl-0 l:w-3/6 xl:w-2/6 l:pl-10 h-96 md:mx-20  xl:ml-0 xl:ml-60">
+            <img class="w-6/6 sm:w-96 md:w-5/6 mt-5 l:hidden l:w-6/6" src="img/pod2.svg" alt="">
+        <img class="hidden l:block w-6/6 sm:w-96 md:w-5/6 mt-5 l:w-6/6" src="img/pod.svg" alt="">
+        <p class=" my-6 md:my-5 text-lg l:text-xl xl:text-2xl text-center font-semibold">Broadcast-grade Dynamic Microphone</p>
+        <p class="text-lightBrown sm:text-center l:text-gray-300 text-lg px-2 l:text-lg xl:text-xl sm:px-10 l:px-0 xl:px-0 my-2 md:my-0 md:text-sm">Give your voice that rich, broadcast sound with the PodMic. Perfect for livestreaming, voice-over, podcasting and gameplay.</p>
+        <div class="flex justify-center gap-5 items-center">
+        <p class="text-brownish font-bold l:text-black">LEARN MORE ></p>
+        <button class="py-2 px-8 rounded-full text-white bg-brownish font-semibold my-5">BUY NOW</button>
+        </div>
+        </div>
+    </section>
+    
+    <!-- section5 -->
+    <section class="bg-white l:bg-sectionBg5 bg-cover  flex flex-col normal:py-0 l:py-40  justify-center items-start md:items-center l:items-end">
+        <div class="w-full md:w-800 normal:w-1000 md:mt-0  h-96 md:h-550 normal-800 bg-cover l:hidden bg-sectionBg5 bg-top md:bg-left">
+        </div>
+        <div class="flex flex-col items-center justify-center l:pl-12 xl:pl-0 l:w-3/6 xl:w-2/6 l:pl-10 h-96 md:mx-20 l:pl-60">
+            <img class="w-6/6 sm:w-96 md:w-5/6 mt-5 l:hidden l:w-6/6" src="img/go2.svg" alt="">
+        <img class="hidden l:block w-6/6 sm:w-96 md:w-5/6 mt-5 l:w-6/6" src="img/go.svg" alt="">
+        <p class=" my-6 md:my-5 text-lg l:text-xl xl:text-2xl text-center l:text-white font-semibold">Next Generation Wireless Audio</p>
+        <p class="text-lightBrown sm:text-center l:text-gray-300 text-lg px-2 l:text-lg xl:text-xl sm:px-10 l:px-0 xl:px-0 my-2 md:my-0 md:text-sm">The Wireless GO II is the world’s most powerful and versatile wireless microphone. With an unparalleled feature set and ultra-compact form factor, this is next generation wireless audio for every creator.</p>
+        <div class="flex justify-center gap-5 items-center">
+        <p class="text-brownish font-bold l:text-brownish">LEARN MORE ></p>
+        <button class="py-2 px-8 rounded-full text-white bg-brownish font-semibold my-5">BUY NOW</button>
+        </div>
+        </div>
+    </section>
+
+        
+    <!-- section6 -->
+    <section class="bg-white l:bg-sectionBg6 bg-cover  flex flex-col normal:py-0 l:py-40  justify-center items-start md:items-center l:items-start">
+        <div class="w-full md:w-800 normal:w-1000 md:mt-0  h-96 md:h-550 normal-800 bg-cover l:hidden bg-sectionBg6 bg-top md:bg-right">
+        </div>
+        <div class="flex flex-col items-center justify-center l:pl-12 xl:pl-0 l:w-3/6 xl:w-2/6 l:pl-10 h-96 md:mx-20  xl:ml-0 xl:ml-60">
+            <img class="w-6/6 sm:w-96 md:w-5/6 mt-5 l:hidden l:w-6/6" src="img/mini2.svg" alt="">
+        <img class="hidden l:block w-6/6 sm:w-96 md:w-5/6 mt-5 l:w-6/6" src="img/mini.svg" alt="">
+        <p class=" my-6 md:my-5 text-lg l:text-xl xl:text-2xl text-center font-semibold">Compact Sound, Incredibly Powerful</p>
+        <p class="text-lightBrown sm:text-center l:text-gray-300 text-lg px-2 l:text-lg xl:text-xl sm:px-10 l:px-0 xl:px-0 my-2 md:my-0 md:text-sm">The NT-USB Mini brings pristine studio sound to a compact USB microphone, and with RØDE Connect unlocking more power, more features and more control, it’s the perfect recording solution for podcasters, gamers and streamers.</p>
+        <div class="flex justify-center gap-5 items-center">
+        <p class="text-brownish font-bold l:text-black">LEARN MORE ></p>
+        <button class="py-2 px-8 rounded-full text-white bg-brownish font-semibold my-5">BUY NOW</button>
+        </div>
+        </div>
+    </section>
+
+    <section class="flex flex-col gap-5 justify-center py-10 items-center">
+        <h1 class="text-2xl md:text-3xl normal:text-4xl text-lightBrown my-5 l:mb-8 font-semibold">Explore The RØDE Range</h1>
+        <div class="bg-sectionBg7 w-5/6 normal:w-4/6 xl:w-3/5 bg-cover bg-center">
+            <img class="h-24 sm:h-32 md:h-40 normal:h-48 l:h-72" src="img/microphone.svg" alt="">
+        </div>
+        <div class="bg-sectionBg8 w-5/6 normal:w-4/6 xl:w-3/5 bg-cover bg-center">
+            <img class="h-24 sm:h-32 md:h-40 normal:h-48 l:h-72" src="img/mixer.svg" alt="">
+        </div>
+        <div class="bg-sectionBg9 w-5/6 normal:w-4/6 xl:w-3/5 bg-cover bg-center">
+            <img class="h-24 sm:h-32 md:h-40 normal:h-48 l:h-72" src="img/soft.svg" alt="">
+        </div>
+        <div class="bg-sectionBg10 w-5/6 normal:w-4/6 xl:w-3/5 bg-cover bg-center">
+            <img class="h-24 sm:h-32 md:h-40 normal:h-48 l:h-72" src="img/access.svg" alt="">
+        </div>
+    </section>
+
+    <section class="flex justify-center xl:px-48 items-center flex-col bg-slate-100 py-10">
+        <h1 class="text-2xl md:text-4xl  text-brownish my-5 l:mb-8 font-semibold">Latest From The RØDE Blog</h1>
+        <div class="mt-10 flex justify-center gap-10 flex-wrap items-center">
+        <div class="flex w-screen sm:w-550 md:w-600 p-5 bg-white flex-col justify-center items-center">
+            <p class="text-center text-brown sm:px-10 md:px-0 text-2xl md:text-3xl font-semibold">The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones</p>
+            <img class="w-350 xm:w-96 mt-5 md:w-500 " src="img/card1.jpeg" alt="">
+            <p class="text-center text-brown sm:px-10 font-thin px-5 md:text-lg my-5">We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.</p>
+            <button class="text-white rounded-full px-8 py-2 bg-brownish">LEARN MORE</button>
+        </div>
+        <div class="flex w-screen sm:w-550 md:w-600 p-5 flex-col bg-white justify-center items-center">
+            <p class="text-center text-brown sm:px-10 md:px-0 text-2xl md:text-3xl font-semibold">The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones</p>
+            <img class="w-350 xm:w-96 mt-5 md:w-500 " src="img/card2.jpg" alt="">
+            <p class="text-center text-brown sm:px-10 font-thin px-5 md:text-lg my-5">We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.</p>
+            <button class="text-white rounded-full px-8 py-2 bg-brownish">LEARN MORE</button>
+        </div>
+        <div class="flex w-screen sm:w-550 md:w-600 p-5 flex-col bg-white justify-center items-center">
+            <p class="text-center text-brown sm:px-10 md:px-0 text-2xl md:text-3xl font-semibold">The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones</p>
+            <img class="w-350 xm:w-96 mt-5 md:w-500 " src="img/card3.jpg" alt="">
+            <p class="text-center text-brown sm:px-10 font-thin px-5 md:text-lg my-5">We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.</p>
+            <button class="text-white rounded-full px-8 py-2 bg-brownish">LEARN MORE</button>
+        </div>
+        <div class="flex w-screen sm:w-550 md:w-600 p-5 flex-col bg-white justify-center items-center">
+            <p class="text-center text-brown sm:px-10 md:px-0 text-2xl md:text-3xl font-semibold">The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones</p>
+            <img class="w-350 xm:w-96 mt-5 md:w-500 " src="img/card4.jpg" alt="">
+            <p class="text-center text-brown sm:px-10 font-thin px-5 md:text-lg my-5">We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.</p>
+            <button class="text-white rounded-full px-8 py-2 bg-brownish">LEARN MORE</button>
+        </div>
+        
+        
+        </div>
+    </section>
+
+    <footer class="flex flex-col l:flex-row l:gap-20 l:px-10 justify-center l:items-start items-center py-10">
+        <img class="w-16 l:w-32" src="img/logo2.svg" alt="">
+        <div class="l:hidden">
+            <hr class="w-96 mt-10">
+            <div class="flex p-5 justify-between">
+                <p class="text-lg">Products</p>
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+            </div>
+            <hr class="w-96">
+            <div class="flex p-5 justify-between">
+                <p class="text-lg">Suppot</p>
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+            </div>
+            <hr class="w-96">
+            <div class="flex p-5 justify-between">
+                <p class="text-lg">Company</p>
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+            </div>
+            <hr class="w-96">
+            <div class="flex p-5 justify-between">
+                <p class="text-lg">Account</p>
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+            </div>
+        </div>
+
+        <div class="hidden l:flex gap-20 mx-10">
+            <div>
+                <p class="font-semibold mb-5">
+                    Products
+                </p>
+            <ul class="flex flex-col gap-5">
+                <li>Microphones</li>
+                <li>Headphones</li>
+                <li>Interfaces and Mixers</li>
+                <li>Accessories</li>    
+                <li>Software</li>
+                <li>Apparel</li>
+            </ul>
+            </div>
+            <div>
+                <p class="font-semibold mb-5">
+                    Products
+                </p>
+            <ul class="flex flex-col gap-5">
+                <li>Contact RØDE</li>
+                <li>Service Centre</li>
+                <li>Warranty</li>
+                <li>Where to Buy</li>
+            </ul>
+            </div>
+
+            <div>
+                <p class="font-semibold mb-5">
+                    Products
+                </p>
+            
+            <ul class="flex flex-col gap-5">
+                <li>About RØDE</li>
+                <li>News and Info</li>
+                <li>Job Opportunities</li>
+                <li class="font-semibold">Account</li>    
+                <li>Manage your Account</li>
+                <li>Create Account</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="flex items-center flex-col l:items-end">
+        <p class="text-2xl text-center l:text-right l:px-0 px-6 l:pt-0 pt-10 font-semibold">Subscribe to our latest <br> news and offers</p>
+        <button class="bg-brownish w-fit px-6 my-5 py-2 rounded-full text-white font-semibold">Sign Up</button>
+        </div>
+
+        
+        <hr class="w-96 my-5 l:hidden">
+        <div class="flex gap-5 l:hidden items-center">
+            <p class="text-xs">privacy & policy</p>
+            <div class="w-px bg-brown h-4"></div>
+            <p class="text-xs">Terms & condition</p>
+        </div>
+        <div class=" l:hidden w-48 flex gap-5 my-5">
+            <svg  class="stroke-white w-28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#ad9970" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#ad9970" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ad9970" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#ad9970" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ad9970" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
+        </div>
+        <p class="text-brown l:hidden">© 2022 RØDE All Rights Reserved.</p>
+    </footer>
+    
+    <hr class="w-1300 hidden l:block m-auto">
+    <div class=" hidden l:flex justify-center gap-80 items-center">
+        <p class="text-brown ">© 2022 RØDE All Rights Reserved.</p>
+        <div class="flex gap-5  items-center">
+            <p class="text-xs">privacy & policy</p>
+            <div class="w-px bg-brown h-4"></div>
+            <p class="text-xs">Terms & condition</p>
+        </div>
+    <div class="  w-48 flex gap-5 my-5">
+        <svg  class="stroke-white w-28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#ad9970" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#ad9970" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ad9970" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#ad9970" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ad9970" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
+    </div>
+    </div>
+</body>
+</html>
